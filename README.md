@@ -1,2 +1,2 @@
 # HelloTrello_Chrome
-Chrome version von HelloTrello
+Chrome Version von [HelloTrello](https://github.com/janis-kra/HelloTrello).
