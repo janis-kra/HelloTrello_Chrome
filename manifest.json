@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "HelloTrello",
+  "description": "Ermöglicht Nutzern von deutschen Tastatur-Layouts den Zugriff auf die Suchleiste in Trello per Bindestrich ('-'). Trello-User, die ein deutsches Tastatur-Layout nutzen, können dieses Tastaturkürzel ohne dieses Addon (also per '/') nicht nutzen.",
+  "version": "1.0",
+
+  "content_scripts": [
+    {
+      "matches": ["https://*.trello.com/*", "http://*.trello.com/*"],
+      "js": ["shortcuts.js"]
+    }
+  ]
+}
